@@ -1,0 +1,94 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "futScript",
+    "collectionId": "8ec5cd55-52f4-463b-b294-bdff3e5eafdc",
+    "dateExported": "2024-07-01T02:17:06.914Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cf08bbf1-4f15-483c-9761-2d4a12a50dac",
+            "colId": "8ec5cd55-52f4-463b-b294-bdff3e5eafdc",
+            "containerId": "",
+            "name": "Post Login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-30T19:11:46.576Z",
+            "modified": "2024-06-30T20:52:36.486Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"username\": \"admin\",\n\"password\": \"1234\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ce1285b6-0e21-484a-a4dc-086e1f29bb4f",
+            "colId": "8ec5cd55-52f4-463b-b294-bdff3e5eafdc",
+            "containerId": "",
+            "name": "post equipos",
+            "url": "http://localhost:3000/equipos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-30T19:48:44.320Z",
+            "modified": "2024-06-30T19:51:31.334Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"la florida\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.YWRtaW4.DRlhemrjIQnH1VQwjqUM17jX5tVGJaDfxJn98wJrP-I"
+            }
+        },
+        {
+            "_id": "53ad400d-a858-44f9-8a07-4ec09c1ca0d2",
+            "colId": "8ec5cd55-52f4-463b-b294-bdff3e5eafdc",
+            "containerId": "",
+            "name": "post jugadores",
+            "url": "http://localhost:3000/equipos/1/jugadores",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-06-30T19:51:56.132Z",
+            "modified": "2024-06-30T20:56:38.166Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\"name\": \"Lulo\",\r\n\"position\": 3\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.YWRtaW4.DRlhemrjIQnH1VQwjqUM17jX5tVGJaDfxJn98wJrP-I"
+            }
+        },
+        {
+            "_id": "cbab862d-ce69-45f0-893c-ade04318dec9",
+            "colId": "8ec5cd55-52f4-463b-b294-bdff3e5eafdc",
+            "containerId": "",
+            "name": "get equipos",
+            "url": "http://localhost:3000/equipos",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-30T19:53:21.418Z",
+            "modified": "2024-06-30T19:55:16.266Z",
+            "headers": []
+        },
+        {
+            "_id": "41d0ec0e-f26b-456b-99a1-d184b5ba1854",
+            "colId": "8ec5cd55-52f4-463b-b294-bdff3e5eafdc",
+            "containerId": "",
+            "name": "get jugadores",
+            "url": "http://localhost:3000/equipos/1/jugadores",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-06-30T19:53:52.487Z",
+            "modified": "2024-06-30T20:04:00.168Z",
+            "headers": []
+        }
+    ],
+    "ref": "EY-pLC3NV2UeeHGZPatm8yRCpOIh3-xT6vxlGKRuWOKYXqnhvAQlnmd3GzFu7tvnscdIlZ7V8b2QqWF8BYzIUw"
+}
